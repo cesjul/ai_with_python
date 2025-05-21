@@ -1,10 +1,10 @@
-def calc_tip(amount:float, porcent:float) -> float:
+def calc_tip(amount:float, percent:float) -> float:
     '''
     porcent its a repr of X%. \r\n
     returns the proportional value based \r\n
     on amount and porcent recieved
     '''
-    decimal_porcent = porcent / 100
+    decimal_porcent = percent / 100
 
     result = amount * decimal_porcent
 
