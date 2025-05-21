@@ -1,10 +1,15 @@
 counter = 0
 grades = []
 average = 0
+
 while True:
     grade = input('Type the student grade: ')
 
     if grade == 'exit':
+        if average == 0:
+            print('Leaving...')
+            break
+
         print(f'The average is: {average}')
         break
     
