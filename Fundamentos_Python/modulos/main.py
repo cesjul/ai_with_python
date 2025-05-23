@@ -1,5 +1,5 @@
 from meu_modulo import sum, sub, multi, module, goodbye, greeting
-
+from novo_modulo import funcao
 print(greeting('James'))
 print()
 print(sum(5,2))
